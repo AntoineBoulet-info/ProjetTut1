@@ -1,0 +1,98 @@
+@media screen and (min-width:340px) and (max-width: 426px) { /* smartphone */
+
+
+ nav {
+   width : 100% ;
+   z-index: -1;
+   height : 22%;
+
+ }
+
+ .formation,.international,.vie_iut,.entreprise,.iut {
+   font-family : "Tw Cen MT" ;
+   font-size : 12px ;
+ }
+
+ .submenu li a {
+   font-size : 11px ;
+ }
+
+ nav .iut {
+  left: 70px;
+ }
+
+ nav .entreprise {
+   left : 30px;
+ }
+
+
+
+ .reseaux {
+   left : 50%;
+   top : 100px;
+   z-index : 1 ;
+ }
+
+
+ .facebook {
+  right : 130px ;
+ }
+
+ .twitter {
+   right : 90px;
+ }
+
+ .youtube {
+   right : 50px;
+ }
+
+ .linkedin{
+   right : 10px ;
+ }
+
+ #bordertitle {
+   left : 12%;
+   width : 80% ;
+   font-size : 11px;
+ }
+
+
+
+
+#logoiut  a img {
+  width : 50%;
+}
+
+#logoiut {
+  top : 10px ;
+  left : 20px ;
+}
+
+#redirection {
+ display : none;
+}
+
+#logo2 img {
+  width : 20% ;
+}
+
+ #logo2 {
+   top : 1300px ;
+   left: 80% ;
+   width : 80%;
+ }
+
+ #adresse {
+   font-size : 7px ;
+   top : 1270px ;
+   left: 10px ;
+ }
+
+ #design {
+   left : 40px;
+   top : 1200px ;
+   font-size : 16px ;
+
+ }
+
+}

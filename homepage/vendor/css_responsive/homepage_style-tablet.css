@@ -1,0 +1,75 @@
+@media (min-width: 768px) and  (max-width: 1024px) { /* tablette */
+
+
+nav {
+  width : 100% ;
+
+}
+
+
+.formation,.international,.vie_iut,.entreprise,.iut {
+  font-size : 14px ;
+}
+
+.submenu li a {
+  font-size : 13px ;
+}
+
+
+.reseaux {
+  left : 33%;
+
+}
+
+.facebook {
+ right : 145px;
+}
+
+
+.twitter {
+ right : 105px;
+}
+
+.youtube {
+ right : 65px;
+}
+
+.linkedin {
+ right : 25px;
+}
+
+
+#bordertitle {
+  left : 20% ;
+  font-size : 18px;
+}
+
+#logoiut img {
+  width : 70% ;
+}
+#logoiut {
+  left : 30px;
+}
+
+#redirection {
+  display: none;
+}
+
+#logo2 {
+  top : 1360px ;
+  right: 15px ;
+}
+
+#adresse {
+  font-size : 12px ;
+  bottom : 900px ;
+  left: 20px ;
+}
+
+#design {
+  left : 100px;
+  font-size : 30px ;
+  bottom : 80% ;
+}
+
+}

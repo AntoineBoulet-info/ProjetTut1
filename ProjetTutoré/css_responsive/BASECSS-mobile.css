@@ -1,0 +1,403 @@
+@media screen and (min-width:340px) and (max-width:426px)  {
+
+nav {
+  width : 100% ;
+}
+
+.formation,.international,.vie_iut,.entreprise,.iut {
+  font-size : 12px ;
+}
+
+.submenu li a  {
+  font-size : 11px;
+
+}
+
+nav .iut {
+ left: 30%;
+
+}
+
+nav .entreprise {
+  left : 10% ;
+}
+
+
+
+.reseaux {
+  left : 10%;
+  top: 160px;
+  z-index:1;
+
+}
+
+
+.facebook {
+ right : 145px;
+}
+
+
+.twitter {
+ right : 105px;
+}
+
+.youtube {
+ right : 65px;
+}
+
+.linkedin {
+ right : 25px;
+}
+
+#pays_photo {
+display: none;
+
+}
+#pays {
+  background-image: url("nz-mobile.jpg");
+  background-repeat: no-repeat;
+}
+
+#logoiut img {
+  width : 40% ;
+}
+#logoiut {
+  left : 30px;
+}
+
+#redirection {
+  display: none;
+}
+
+#borderlinks {
+  display: none;
+
+}
+.lien {
+  font-size : 10px;
+}
+
+#l1 {
+  position: absolute;
+  margin-top : 10px;
+  left : 10px;
+
+}
+
+#l2 {
+  position: absolute;
+  margin-top : 25px;
+  left:30px;
+
+}
+
+#l3 {
+  position: absolute;
+  margin-top : 40px;
+  left : 30px;
+}
+
+#hr {
+  left: 200px;
+  margin-top: 120px;
+  height : 65px;
+
+}
+
+#hr_elt1 {
+  left: 220px;
+  margin-top: 120px;
+  height : 50px;
+  font-size: 12px;
+}
+
+#hr_elt2 {
+  width : 5em;
+  left: 230px;
+  margin-top: 120px;
+  height : 50px;
+
+}
+
+#hr_elt3 {
+  width : 5em;
+  left: 230px;
+  margin-top: 140px;
+  height : 50px;
+
+}
+.hr_link {
+  font-size: 11px ;
+}
+
+#bordertitle {
+  width : 200px;
+  left : 90px;
+  font-size : 12px;
+  margin-top : 20px ;
+  padding : 2px;
+}
+
+#rub {
+  top : 335px;
+  font-size : 16px;
+  left : 35px;
+}
+
+#hr_r1 {
+  width : 50px;
+  top : 330px;
+  left : 38px;
+}
+
+#hr_r2 {
+  width : 50px;
+  top : 360px;
+  left : 38px;
+}
+
+#etudes {
+  font-size : 12px;
+  top: 380px;
+  left: 15px;
+}
+
+#et {
+  top : 390px;
+  font-size: 15px;
+  left: 65px;
+}
+
+#stages {
+  font-size: 12px;
+  top: 420px;
+  left: 15px;
+}
+
+#b1 {
+  top: 450px;
+  left: 15px;
+  width : 40% ;
+  font-size: 10px;
+
+}
+
+#text_cv {
+  font-size : 12px;
+  top: 500px;
+  left : 35px;
+}
+
+.rond {
+  width : 40px;
+  height : 40px;
+}
+
+#r1 {
+  top: 530px;
+  left : 15px;
+}
+
+#r2 {
+  top:530px;
+  left : 80px;
+}
+
+#display{
+  left: -350px;
+  width : 70%;
+}
+
+#quebec {
+  margin-top : 955px;
+}
+
+#Irlande {
+  margin-top : 1630px;
+}
+
+#l5_e {
+  margin-top : 2060px;
+}
+
+#p12_e {
+  margin-top : 2020px;
+}
+
+
+#Dundalk {
+  margin-top : 1970px;
+}
+#hr3_e {
+  margin-top : 2000px;
+}
+
+#display2 {
+  left:-350px;
+  width:50%;
+}
+
+#p1_s {
+margin-top : 2200px;
+}
+
+#l1_s {
+  margin-top : 2280px;
+}
+
+#p2_s {
+  margin-top : 2400px;
+}
+
+#p4_s {
+  margin-top : 2505px;
+}
+
+
+#p6_s {
+  margin-top : 2812px;
+}
+
+#l3_s {
+  margin-top : 2930px;
+}
+
+#p8_s {
+  margin-top: 3135px;
+}
+
+#l4_s {
+  margin-top: 3240px;
+}
+
+#l5_s {
+  margin-top: 3545px;
+}
+
+#l6_s {
+  margin-top : 3833px;
+}
+
+
+#Japon {
+  margin-top: 3930px;
+}
+#display3 {
+  width : 70% ;
+  left: -350px;
+}
+ #display3 div {
+   font-size:14px;
+   width : 80%;
+ }
+
+
+#display p,#display2 p,#display3 p{
+  font-size:10px;
+  width : 100%;
+}
+
+
+#display li,#display2 li,#display3 li{
+  font-size:11px;
+  width : 80%;
+  list-style-type: circle;
+}
+
+#display ul,#display2 ul,#display3 ul {
+  width : 90%;
+}
+
+
+
+
+
+#display hr,#display2 hr,#display3 hr{
+    left: 450px;
+
+}
+
+#b2 {
+  font-size: 10px;
+  left:280px;
+}
+
+#logo2 {
+  left:260px;
+}
+
+#logo2 img {
+  width : 80%;
+}
+
+#other {
+  left : 50px;
+  font-size:16px;
+
+}
+
+#adresse {
+  font-size : 7px;
+  left : 10px;
+}
+
+#b5 {
+  top : 4275px;
+  left : 30px;
+  font-size:10px;
+}
+
+
+#contact {
+  right : 50px ;
+  top : 335px ;
+  font-size : 16px ;
+
+}
+
+#hr_c1 {
+  width : 50px;
+  top : 330px;
+  right : 47px;
+}
+
+#hr_c2 {
+  width : 50px;
+  top : 360px;
+  right : 47px;
+}
+
+#email_a {
+  font-size : 9px;
+  top : 370px;
+  right : 30px;
+
+}
+
+#tel_a {
+  font-size : 9px;
+  top : 385px;
+  right : 30px;
+}
+
+#email_f {
+  font-size : 9px;
+  top : 410px;
+  right : 30px;
+
+}
+
+#tel_f {
+  font-size : 9px;
+  top : 425px;
+  right : 30px;
+}
+
+#b6 {
+  top : 5250px;
+  left : 260px;
+  font-size : 10px;
+}
+
+
+}

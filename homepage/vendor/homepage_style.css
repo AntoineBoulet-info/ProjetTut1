@@ -1,0 +1,294 @@
+body {
+
+       margin: 0;
+       padding: 0;
+       perspective: 1px;
+       transform-style: preserve-3d;
+       height: 100%;
+       overflow-y: scroll;
+       overflow-x: hidden;
+}
+
+
+
+/* TOPBAR */
+
+@font-face {
+  font-family : "Tw Cen MT" ;
+  src : url('../ressources/TCM_____.TTF') ;
+  font-family : "Fantasy" ;
+  src : url('../ressources/DK\ Dirrrty.ttf ') ;
+  font-family: "Helvetica" ;
+  src : url('../ressources/HelveticaNeue-Thin.otf') ;
+
+}
+
+.formation,.international,.vie_iut,.entreprise,.iut {
+  font-family : "Tw Cen MT" ;
+  font-size : 20px ;
+
+}
+
+
+nav {
+  width : 100%;
+  background-color :  rgba(4,72,130,0.8)  ; /* #BCBCBC en gris */
+}
+
+nav > ul {
+  margin : 0px ;
+  padding : 0px ;
+}
+
+nav > ul::after {
+  content: "" ;
+  display: block ;
+  clear: both ;
+}
+
+nav > ul > li {
+  float: left ;
+  position: relative ;
+}
+
+nav > ul > li > a {
+  padding : 20px 30px ;
+  color : #FFF ;
+}
+nav > ul > li:hover a{
+  padding : 15px 30px 20px 30px ;
+  
+}
+nav li {
+  list-style-type: none ;
+}
+
+.submenu {
+  display: none ;
+}
+
+nav a {
+  display: inline-block ;
+  text-decoration: none ;
+  color : #fff ;
+
+}
+
+nav li:hover .submenu {
+  display: inline-block;
+  position: absolute ;
+  top : 100% ;
+  left: 0px ;
+  padding:0px ;
+  z-index: 1000;
+}
+
+.submenu li {
+  border-bottom : 1px solid #CCC ;
+}
+.submenu li a {
+  font-size : 17px ;
+  padding : 15px 30px ;
+  width : 350px ;
+  font-family : "Tw Cen MT" ;
+  color : #EEE ;
+
+
+}
+
+.formation:hover {
+  border-top: 5px solid #A24392 ;
+  background-color : rgba(162,67,146,0.15) ;
+
+}
+
+.international:hover {
+  border-top: 5px solid #044883 ;
+  background-color : rgba(4,72,130,0.15) ;
+
+}
+
+.vie_iut:hover {
+  border-top: 5px solid #EB8915  ;
+  background-color : rgba(255,13,204,0.15) ;
+
+}
+
+.entreprise:hover {
+  border-top: 5px solid #00AF9E ;
+  background-color : rgba(00,172,154,0.15) ;
+
+}
+
+.iut:hover {
+  border-top: 5px solid #E71D73  ;
+  background-color : rgba(255,13,204,0.15) ;
+
+
+}
+
+.formation .submenu {
+  background-color : rgb(162,67,146) ;
+
+}
+
+.international .submenu {
+   background-color : rgb(4,72,130) ;
+
+}
+
+.vie_iut .submenu {
+  background-color : rgb(245,143,10) ;
+
+}
+
+.entreprise .submenu {
+  background-color : rgb(00,172,154) ;
+
+}
+
+.iut .submenu {
+    background-color : rgb(255,13,204) ;
+
+}
+
+.submenu li:hover a{
+  color : #EEE ;
+  font-weight : bold ;
+
+}
+
+.reseaux {
+  left: 800px ;
+  top : -18px;
+
+}
+
+.facebook {
+  position:absolute ;
+  margin-top : 10px ;
+  right : 250px ;
+}
+
+.twitter {
+  position: absolute;
+  margin-top: 10px;
+  right : 180px ;
+}
+
+.youtube {
+  position: absolute;
+  margin-top: 10px;
+  right : 110px ;
+}
+
+.linkedin {
+  position: absolute;
+  margin-top: 10px;
+  right : 40px ;
+}
+
+#logoiut  {
+  position: absolute ;
+  top : 30px ;
+  left : 100px ;
+}
+
+#redirection {
+  position: absolute ;
+  top : 50px ;
+  right : 20px ;
+  font-size: 13px ;
+  font-family : "Tw Cen MT" ;
+}
+#redirection a {
+  text-decoration: none ;
+  color : black ;
+}
+#redirection a:hover {
+  font-weight : bold ;
+}
+
+
+
+ #bordertitle {
+   display : inline-block ;
+   position : absolute;
+   left : 500px ;
+   border : 2px  ;
+   top : 350px ;
+   background-color : rgba(189,188,188,0.55 )  ;
+   font-family : "Tw Cen MT" ;
+   font-size : 24px ;
+   color :  rgba(4,72,130,0.95) ;
+   padding : 5px  ;
+   width : 520px ;
+   text-align: center ;
+}
+
+
+html{
+    height: 100%;
+    overflow: hidden;
+}
+
+
+header{
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 30vw 0 5vw;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+
+}
+header div h1 {
+    margin-top: -10px;
+}
+header, header:before{
+    background: 50% 50% / cover;
+}
+header::before{
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    display: block;
+    background-image: url("../ressources/img/nz.jpg");
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    min-height: 105vh;
+}
+
+header * {
+    font-weight: normal;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+}
+
+
+#logo2 {
+  position:absolute;
+  top : 1400px ;
+  right : 100px ;
+}
+#adresse {
+  font-family: "Helvetica" ;
+  position:absolute;
+  top : 1450px ;
+  left : 100px ;
+}
+
+#design {
+  font-family: "Fantasy" ;
+  font-style: italic;
+  font-size : 45px ;
+  position: absolute;
+  top : 1250px ;
+  left : 200px ;
+}

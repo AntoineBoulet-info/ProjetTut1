@@ -1,0 +1,32 @@
+@media screen and (min-width:1870px) and (max-width:2000px)  {
+
+
+  #hr {
+    left: 1400px;
+  }
+
+  #hr_elt1 {
+    left: 1450px;
+  }
+
+  #hr_elt2 {
+    left: 1460px;
+  }
+
+  #hr_elt3 {
+    left : 1460px;
+  }
+
+
+.reseaux {
+    left: 1200px ;
+  }
+
+#bordertitle {
+  left : 600px;
+}
+
+
+
+
+}

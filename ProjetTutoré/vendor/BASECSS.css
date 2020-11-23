@@ -1,0 +1,1363 @@
+body {
+   margin : auto ;
+   width : 100% ;
+   padding : 0px ;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+
+
+}
+
+/* TOPBAR */
+
+@font-face {
+  font-family : "Tw Cen MT" ;
+  src : url('../ressources/TCM_____.TTF') ;
+  font-family : "Fantasy" ;
+  src : url('../ressources/DK\ Dirrrty.ttf ') ;
+  font-family: "Helvetica" ;
+  src : url('../ressources/HelveticaNeue-Thin.otf') ;
+
+}
+
+
+.formation,.international,.vie_iut,.entreprise,.iut {
+  font-family : "Tw Cen MT" ;
+  font-size : 20px ;
+}
+
+nav {
+  width : 100%;
+  background-color :  rgba(4,72,130,0.8)  ; /* #BCBCBC en gris */
+}
+
+nav > ul {
+  margin : 0px ;
+  padding : 0px ;
+
+}
+
+nav > ul::after {
+  content: "" ;
+  display: block ;
+  clear: both ;
+}
+
+nav > ul > li {
+  float: left ;
+  position: relative ;
+
+}
+
+nav > ul > li > a {
+  padding : 20px 30px ;
+  color : #FFF ;
+}
+nav > ul > li:hover a{
+  padding : 15px 30px 20px 30px ;
+}
+nav li {
+  list-style-type: none ;
+}
+.submenu {
+  display: none ;
+}
+
+nav a {
+  display: inline-block ;
+  text-decoration: none ;
+  color : #fff ;
+}
+
+
+
+nav li:hover .submenu {
+  display: inline-block;
+  position: absolute ;
+  top : 100% ;
+  left: 0px ;
+  padding:0px ;
+  z-index: 1000;
+}
+
+.submenu li {
+  border-bottom : 1px solid #CCC ;
+}
+.submenu li a {
+  font-size : 17px ;
+  padding : 15px 30px ;
+  width : 270px ;
+  font-family : "Tw Cen MT" ;
+  color : #EEE ;
+}
+
+.formation:hover {
+  border-top: 5px solid #A24392 ;
+  background-color : rgba(162,67,146,0.15) ;
+
+}
+
+.international:hover {
+  border-top: 5px solid #044883 ;
+  background-color : rgba(4,72,130,0.15) ;
+
+}
+
+.vie_iut:hover {
+  border-top: 5px solid #EB8915  ;
+  background-color : rgba(255,13,204,0.15) ;
+
+}
+
+.entreprise:hover {
+  border-top: 5px solid #00AF9E ;
+  background-color : rgba(00,172,154,0.15) ;
+
+}
+
+.iut:hover {
+  border-top: 5px solid #E71D73  ;
+  background-color : rgba(255,13,204,0.15) ;
+
+
+}
+
+.formation .submenu {
+  background-color : rgb(162,67,146) ;
+
+}
+
+.international .submenu {
+   background-color : rgb(4,72,130) ;
+
+}
+
+.vie_iut .submenu {
+  background-color : rgb(245,143,10) ;
+
+}
+
+.entreprise .submenu {
+  background-color : rgb(00,172,154) ;
+
+}
+
+.iut .submenu {
+    background-color : rgb(255,13,204) ;
+
+}
+
+
+.submenu li:hover a{
+  color :#EEE ;
+  font-weight : bold ;
+}
+
+
+.reseaux {
+  left: 800px ;
+  top : -18px;
+
+}
+.facebook {
+  position:absolute ;
+  margin-top : 10px ;
+  right : 250px ;
+}
+
+.twitter {
+  position: absolute;
+  margin-top: 10px;
+  right : 180px ;
+}
+
+.youtube {
+  position: absolute;
+  margin-top: 10px;
+  right : 110px ;
+}
+
+.linkedin {
+  position: absolute;
+  margin-top: 10px;
+  right : 40px ;
+}
+
+
+#logoiut  {            /* logo iut */
+  position: absolute ;
+  margin-top : 30px ;
+  left : 100px ;
+  z-index:1;
+}
+
+#redirection {
+  position: absolute ;
+  margin-top : 180px ;
+  right : 20px ;
+  font-size: 13px ;
+  font-family : "Tw Cen MT" ;
+}
+#redirection a {
+  text-decoration: none ;
+  color : #fff ;
+}
+#redirection a:hover {
+  font-weight : bold ;
+}
+
+#pays {         /* etranger */
+  position: absolute;
+  width : 100% ;
+  height: 520px;
+
+}
+#pays_photo {
+  width : 100% ;
+  height : 520px;
+}
+
+.lien  {                  /* Annexe */
+  text-decoration: none ;
+  font-size : 22px ;
+  font-family: "Tw Cen MT" ;
+  color : #fff ;
+  font-weight: bold;
+}
+
+
+ #borderlinks{
+   border : 3px outset #fff  ;
+   width : 250px ;
+   border-radius: 10px / 20px;
+   position :absolute ;
+   left : 20px ;
+   margin-top : 250px ;
+   text-align: center ;
+   font-style:oblique;
+}
+
+
+
+ #bordertitle {
+   display : inline-block ;
+   position : absolute;
+   left : 400px ;
+   border : 2px  ;
+   margin-top : 280px ;
+   background-color : rgba(189,188,188,0.85 )  ;
+   font-family : "Tw Cen MT" ;
+   font-size : 24px ;
+   color :  rgba(4,72,130,0.95) ;
+   padding : 5px  ;
+   width : 520px ;
+   text-align: center ;
+}
+
+
+#hr {         /* INTERNATIONAL hr */
+  border : 2px solid #fff ;
+  width : 0px ;
+  height : 120px ;
+  margin-top : 320px ;
+  position: absolute;
+  left : 1200px ;
+
+}
+
+#hr_elt1 {
+  margin-top : 320px ;
+  position: absolute;
+  left : 1230px ;
+  font-size : 30px ;
+  font-family: "Tw Cen MT" ;
+  color : #fff ;
+}
+
+#hr_elt2 {
+  width : 8em ;
+  margin-top : 350px ;
+  position: absolute;
+  left : 1250px ;
+  font-size : 14px;
+}
+
+#hr_elt3 {
+  width : 8em ;
+  margin-top : 380px ;
+  position : absolute;
+  left : 1250px ;
+  font-size :14px;
+}
+
+#hr_elt2:hover,#hr_elt3:hover {
+  font-weight: bold ;
+}
+
+.hr_link {
+  font-size: 22px ;
+  font-family: "Tw Cen MT" ;
+  text-decoration: none ;
+  color : #fff ;
+}
+
+#rub {
+  position: absolute;
+  left : 90px ;
+  top : 600px ;
+  font-size : 40px ;
+  font-family: "Tw Cen MT" ;
+  color : #044883 ;
+}
+
+#hr_r1 {
+  border : 2px solid #044883  ;
+  width : 170px ;
+  height : 0px ;
+  top : 600px ;
+  position: absolute;
+  left : 72px ;
+
+}
+
+#hr_r2 {
+  border : 2px solid #044883  ;
+  width : 170px ;
+  height : 0px ;
+  top : 680px ;
+  position: absolute;
+  left : 72px ;
+
+}
+
+#other{
+  font-family: "Tw Cen MT" ;
+  font-size: 25px ;
+  display : none;
+  color :  #044883 ;
+  position: absolute;
+  top : 4250px ;
+  left : 120px ;
+
+}
+
+#contact {
+  position: absolute;
+  right : 100px ;
+  top : 585px ;
+  font-size : 40px ;
+  font-family: "Tw Cen MT" ;
+  color : #044883 ;
+}
+
+#hr_c1 {
+  border : 2px solid #044883  ;
+  width : 140px ;
+  height : 0px ;
+  top : 590px ;
+  position: absolute;
+  right : 87px ;
+}
+
+#hr_c2 {
+  border : 2px solid #044883  ;
+  width : 140px ;
+  height : 0px ;
+  top : 660px ;
+  position: absolute;
+  right : 87px ;
+}
+
+#email_a {
+  position: absolute;
+  font-family: "Helvectica";
+  top : 670px;
+  right : 85px;
+  color : #044883 ;
+}
+
+#tel_a {
+  position: absolute;
+  font-family: "Helvectica";
+  top : 700px;
+  right : 85px;
+  color : #044883 ;
+}
+
+#email_f {
+    position: absolute;
+    font-family: "Helvectica";
+    top : 750px;
+    right : 85px;
+    color : #044883 ;
+
+}
+
+#tel_f {
+  position: absolute;
+  font-family: "Helvectica";
+  top : 780px;
+  right : 85px;
+  color : #044883 ;
+}
+
+
+/* DEBUT PARAGRAPHES */
+
+/*.paragraphe {
+  display: inline-block;
+  position: absolute;
+  top : 50px ; /* à changer pour rajouter des choses
+  width : 800px ;
+}*/
+
+
+/*.paragraphe1 {
+position: absolute;
+margin-top : 200px ;
+width : 800px ;
+
+}*/
+
+
+.p_links {
+  text-decoration: none ;
+  color : rgba(4,72,130,0.90) ;
+}
+
+
+
+.p_links:hover {
+  font-weight: bold;
+  background-color: rgba(4,72,130,0.15)   ;
+  border: 1px solid rgba(4,72,130,0.60) ;
+  width : 220px ;
+}
+
+
+#b1 {
+  position: absolute;
+  top : 630px ;
+  left : 400px;
+  border-radius:12px 0 12px 0;
+	background: #044883;
+	border:none;
+	color:#fff;
+	font:bold 14px Helvetica;
+	padding:6px 0 6px 0;
+
+
+}
+
+
+
+#b2 {
+  display: none;
+  position: absolute;
+  top : 4150px ;
+  left : 1000px;
+  border-radius:12px 0 12px 0;
+	background: #044883;
+	border:none;
+	color:#fff;
+	font:bold 14px Helvetica;
+	padding:6px 0 6px 0;
+}
+
+#display {
+  display: none ;
+  position: absolute;
+  top : 135px;
+
+}
+
+
+
+#etudes {
+  font-family: "Tw Cen MT" ;
+  font-size: 25px ;
+  color :  #044883 ;
+  position: absolute;
+  top : 710px ;
+  left : 40px ;
+
+}
+
+
+#p1_e {
+    font-family : 'Helvectica' ;
+    position:absolute;
+    font-size: 17px ;
+    position: absolute ;
+    margin-top : 550px ;
+    left : 420px ;
+    width : 800px ;
+
+}
+
+#p2_e {
+  font-family : 'Helvectica' ;
+  position:absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 600px ;
+  left : 420px ;
+  width : 800px ;
+
+}
+
+#modalités {
+  font-family : 'Helvectica' ;
+  position:absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 635px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+
+#p3_e {
+  font-family : 'Helvectica' ;
+  color :  #044883 ;
+  position :absolute;
+  font-size: 21px ;
+  position: absolute ;
+  margin-top : 700px ;
+  left : 380px ;
+  width : 800px ;
+}
+
+#p4_e {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 735px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p5_e {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 765px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#l1_e {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 835px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+
+#quebec {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 940px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+
+#hr_e {
+  width : 200px ;
+  border : 2px solid ;
+  color : rgba(4,72,130,0.60) ;
+  position: absolute;
+  left : 700px ;
+  margin-top : 1000px ;
+}
+
+#p6_e {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 1030px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p7_e {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 1070px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#l2_e {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 1210px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#CREPUQ {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 1320px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#hr1_e {
+  width : 200px ;
+  border : 2px solid ;
+  color : rgba(4,72,130,0.60) ;
+  position: absolute;
+  left : 700px ;
+  margin-top : 1370px ;
+}
+
+#p8_e {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 1400px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p9_e {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 1435px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#l3_e {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 1470px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#Irlande {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 1620px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#hr2_e {
+  width : 200px ;
+  border : 2px solid ;
+  color : rgba(4,72,130,0.60) ;
+  position: absolute;
+  left : 700px ;
+  margin-top : 1670px ;
+}
+
+#p10_e {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 1700px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p11_e {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 1735px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+ #l4_e {
+   font-family : 'Helvectica' ;
+   position :absolute;
+   font-size: 17px ;
+   position: absolute ;
+   margin-top : 1770px ;
+   left : 420px ;
+   width : 800px ;
+ }
+
+ #Dundalk {
+   font-family : 'Helvectica' ;
+   position :absolute;
+   font-size: 17px ;
+   position: absolute ;
+   margin-top : 1920px ;
+   left : 420px ;
+   width : 800px ;
+ }
+
+ #hr3_e {
+   width : 200px ;
+   border : 2px solid ;
+   color : rgba(4,72,130,0.60) ;
+   position: absolute;
+   left : 700px ;
+   margin-top : 1970px ;
+ }
+
+ #p12_e {
+   font-family : 'Helvectica' ;
+   position : absolute;
+   font-size: 17px ;
+   position: absolute ;
+   margin-top : 2000px ;
+   left : 420px ;
+   width : 800px ;
+ }
+
+ #l5_e {
+   font-family : 'Helvectica' ;
+   position :absolute;
+   font-size: 17px ;
+   position: absolute ;
+   margin-top : 2035px ;
+   left : 420px ;
+   width : 800px ;
+ }
+
+ #Seville {
+   font-family : 'Helvectica' ;
+   position :absolute;
+   font-size: 17px ;
+   position: absolute ;
+   margin-top : 2150px ;
+   left : 420px ;
+   width : 800px ;
+ }
+
+
+
+#display2  {
+  display : none;
+  position: absolute;
+  top : 150px;
+}
+
+
+#et {
+  position: absolute;
+  top : 725px ;
+  left : 150px;
+  border-radius: 10px ;
+  color : rgb(4,72,130) ;
+}
+
+#b4 {
+  display : none ;
+  position: absolute;
+  top : 760px ;
+  left : 1000px ;
+  border-radius: 10px ;
+  color : rgb(4,72,130) ;
+}
+
+
+
+
+ #stages {
+   font-family: "Tw Cen MT" ;
+   font-size: 25px ;
+   color :  #044883 ;
+   position: absolute;
+   top : 800px ;
+   left : 40px ;
+ }
+
+ #p1_s{
+   font-family : 'Helvectica' ;
+   position :absolute;
+   font-size: 17px ;
+   position: absolute ;
+   margin-top : 2250px ;
+   left : 420px ;
+   width : 800px ;
+ }
+
+ #l1_s   {
+    font-family : 'Helvectica' ;
+    position :absolute;
+    font-size: 17px ;
+    position: absolute ;
+    margin-top : 2300px ;
+    left : 420px ;
+    width : 800px ;
+  }
+
+ #p2_s {
+    font-family : 'Helvectica' ;
+    position :absolute;
+    font-size: 17px ;
+    position: absolute ;
+    margin-top : 2370px ;
+    left : 420px ;
+    width : 800px ;
+  }
+
+
+
+  #p3_s {
+    font-family : 'Helvectica' ;
+    color :  #044883 ;
+    position :absolute;
+    font-size: 21px ;
+    position: absolute ;
+    margin-top : 2470px ;
+    left : 380px ;
+    width : 800px ;
+  }
+
+#p4_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 2515px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p5_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 2545px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#l2_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 2600px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#Larissa1 {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 2710px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#modacandit {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 2745px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#hr1_s {
+  width : 200px ;
+  border : 2px solid ;
+  color : rgba(4,72,130,0.60) ;
+  position: absolute;
+  left : 700px ;
+  margin-top : 2800px ;
+}
+
+#p6_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 2830px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p7_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 2860px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#l3_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 2915px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#Varsovie {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3035px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#modacandit2 {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3070px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#hr2_s  {
+  width : 200px ;
+  border : 2px solid ;
+  color : rgba(4,72,130,0.60) ;
+  position: absolute;
+  left : 700px ;
+  margin-top : 3115px ;
+}
+
+#p8_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3145px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p9_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3175px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#l4_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3230px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#Roumanie {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3335px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#modacandit3 {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3370px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#hr3_s {
+  width : 200px ;
+  border : 2px solid ;
+  color : rgba(4,72,130,0.60) ;
+  position: absolute;
+  left : 700px ;
+  margin-top : 3415px ;
+}
+
+#p10_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3440px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p11_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3475px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#l5_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3530px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#Montréal {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3635px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#hr4_s {
+  width : 200px ;
+  border : 2px solid ;
+  color : rgba(4,72,130,0.60) ;
+  position: absolute;
+  left : 700px ;
+  margin-top : 3675px ;
+}
+
+#p12_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3700px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p13_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3735px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#l6_s {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3815px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#Japon {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 3915px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#b5 {
+display:  none ;
+position: absolute;
+top : 4300px ;
+left : 95px;
+border-radius:12px 0 12px 0;
+background: #044883;
+border:none;
+color:#fff;
+font:bold 14px Helvetica;
+padding:6px 0 6px 0;
+}
+
+
+
+#b6 {
+  display:  none ;
+  position: absolute;
+  top : 5200px ;
+  left : 1000px;
+  border-radius:12px 0 12px 0;
+  background: #044883;
+  border:none;
+  color:#fff;
+  font:bold 14px Helvetica;
+  padding:6px 0 6px 0;
+  }
+
+#b6 a {
+  color : #fff;
+  text-decoration: none;
+}
+
+
+
+#display3 {
+  position: absolute;
+  display: none;
+  top : 350px ;
+  width : 100% ;
+
+}
+
+
+
+
+#exp {
+  font-family: "Tw Cen MT" ;
+  font-size: 30px ;
+  color :  #044883 ;
+  position: absolute;
+  margin-top : 3975px ;
+  left : 370px ;
+}
+
+#p1_exp {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 4030px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p2_exp {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 4075px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p3_exp {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 4130px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#post {
+  font-family: "Tw Cen MT" ;
+  font-size: 30px ;
+  color :  #044883 ;
+  position: absolute;
+  margin-top : 4175px ;
+  left : 370px ;
+}
+
+#p1_post {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 4230px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p2_post {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 4280px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p3_post {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 4335px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#langue {
+  font-family: "Tw Cen MT" ;
+  font-size: 30px ;
+  color :  #044883 ;
+  position: absolute;
+  margin-top : 4375px ;
+  left : 370px ;
+}
+
+#p1_l {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 4430px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p2_l {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 4480px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p3_l{
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 4510px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#aide {
+  font-family: "Tw Cen MT" ;
+  font-size: 30px ;
+  color :  #044883 ;
+  position: absolute;
+  margin-top : 4575px ;
+  left : 370px ;
+}
+
+#p1_a {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 4630px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+#p2_a {
+  font-family : 'Helvectica' ;
+  position :absolute;
+  font-size: 17px ;
+  position: absolute ;
+  margin-top : 4680px ;
+  left : 420px ;
+  width : 800px ;
+}
+
+
+
+
+#text_cv {
+  font-family: "Tw Cen MT" ;
+  font-size: 30px ;
+  color :  #044883 ;
+  position: absolute;
+  top : 920px ;
+  left : 70px ;
+
+
+}
+
+
+.rond {
+  width : 120px ;
+  height : 120px ;
+  border-radius: 100px ;
+  background-color : white ;
+  position: absolute;
+  top : 5px ;
+}
+
+#r1 {
+  position: absolute;
+  display : inline-block ;
+  top: 1000px;
+  left : 50px ;
+  background-image : url("../ressources/img/antoine.jpg") ;
+}
+
+#r2 {
+  display : inline-block;
+  position : absolute ;
+  top: 1000px;
+  left : 200px ;
+  background-image: url("../ressources/img/franklin.jpg") ;
+}
+
+
+#drapQ {
+  position: absolute;
+  display: inline-block;
+  top: 500px;
+  width : 30%;
+
+}
+
+#adresse {
+display: none;
+ position: absolute;
+ top : 5300px;
+ left : 100px ;
+ font-family: "Helvectica";
+
+}
+
+
+#logo2 {
+display: none;
+position: absolute;
+top : 4200px ;
+left : 1250px;
+}

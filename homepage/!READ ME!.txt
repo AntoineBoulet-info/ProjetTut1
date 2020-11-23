@@ -1,0 +1,12 @@
+Bonjour Madame, 
+
+Je vous fait un petit fichier texte car notre responsive design n'est pas encore du tout au top. Je n'ai pas eu le temps
+de faire un bon responsive design. Pour des pc, le site sera normalement comme nous le voulons. Si vous le lisez sur tablette je n'arrive 
+que à le mettre parfaitement à 767px en width et j'ai essayé aussi pour les appareils de 425px. Je corrigerais ce problème pour le jour 
+de l'envoi du projet tutoré.
+
+La Homepage se nomme " homepage.html " 
+
+
+
+PS: Nous vous mettrons des screenshot de notre page au cas où les dimensions ont changé.

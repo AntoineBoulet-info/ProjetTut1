@@ -1,0 +1,317 @@
+@media screen and (min-width:768px) and (max-width:1024px)  {
+
+nav {
+  width : 100% ;
+}
+
+.formation,.international,.vie_iut,.entreprise,.iut {
+  font-size : 14px ;
+}
+
+.submenu li a  {
+  font-size : 13px;
+}
+
+
+
+.reseaux {
+  left : 240px;
+
+}
+
+.facebook {
+ right : 145px;
+}
+
+
+.twitter {
+ right : 105px;
+}
+
+.youtube {
+ right : 65px;
+}
+
+.linkedin {
+ right : 25px;
+}
+
+#pays_photo {
+display: none;
+
+}
+#pays {
+  background-image: url("nz-tablet.jpg");
+  background-repeat: no-repeat;
+}
+
+#logoiut img {
+  width : 70% ;
+}
+#logoiut {
+  left : 30px;
+}
+
+#redirection {
+  display: none;
+}
+
+#borderlinks {
+  display: none;
+
+}
+.lien {
+  font-size : 13px;
+}
+
+#l1 {
+  position: absolute;
+  margin-top : 10px;
+  left : 10px;
+
+}
+
+#l2 {
+  position: absolute;
+  margin-top : 25px;
+  left:30px;
+
+}
+
+#l3 {
+  position: absolute;
+  margin-top : 40px;
+  left : 30px;
+}
+
+#hr {
+  left: 600px;
+  margin-top: 300px;
+  height : 75px;
+
+}
+
+#hr_elt1 {
+  left: 620px;
+  margin-top: 300px;
+  height : 50px;
+  font-size: 12px;
+}
+
+#hr_elt2 {
+  width : 5em;
+  left: 620px;
+  margin-top: 310px;
+  height : 50px;
+
+}
+
+#hr_elt3 {
+  width : 5em;
+  left: 620px;
+  margin-top: 330px;
+  height : 50px;
+
+}
+.hr_link {
+  font-size: 14px ;
+}
+
+#bordertitle {
+  width : 450px;
+  left : 200px;
+  font-size : 14px;
+  margin-top : 150px ;
+  padding : 2px;
+}
+
+#rub {
+  top : 600px;
+  font-size : 20px;
+  left : 70px;
+}
+
+#hr_r1 {
+  width : 55px;
+  top : 590px;
+  left : 75px;
+}
+
+#hr_r2 {
+  width : 55px;
+  top : 635px;
+  left : 75px;
+}
+
+#etudes {
+  font-size : 16px;
+  top: 660px;
+  left: 25px;
+}
+
+#et {
+  top : 680px;
+  font-size: 15px;
+  left: 100px;
+}
+
+#stages {
+  font-size: 16px;
+  top: 720px;
+  left: 25px;
+}
+
+#b1 {
+  top: 600px;
+  left: 250px;
+  width : 30% ;
+  font-size: 10px;
+
+}
+
+#text_cv {
+  font-size : 16px;
+  top: 800px;
+  left : 55px;
+}
+
+.rond {
+  width : 70px;
+  height : 70px;
+}
+
+#r1 {
+  top: 850px;
+  left : 30px;
+}
+
+#r2 {
+  top:850px;
+  left : 120px;
+}
+
+#display{
+  left: -155px;
+  width : 50%;
+}
+
+#display2 {
+  left:-155px;
+  width:50%;
+}
+
+#display3 {
+  width : 50% ;
+  left: -155px;
+}
+ #display3 div {
+   font-size:14px;
+   width : 80%;
+ }
+
+
+#display p,#display2 p,#display3 p{
+  font-size:11px;
+  width : 80%;
+}
+
+
+#display li,#display2 li,#display3 li{
+  font-size:11px;
+  width : 60%;
+  list-style-type: circle;
+}
+
+#display ul,#display2 ul,#display3 ul {
+  width : 90%;
+}
+
+#l1_s {
+  margin-top: 2310px;
+}
+
+#p2_s {
+  margin-top : 2400px;
+}
+
+#display hr,#display2 hr,#display3 hr{
+    left: 450px;
+
+}
+
+#b2 {
+  font-size: 10px;
+  left:500px;
+}
+
+#logo2 {
+  left:600px;
+}
+
+#other {
+  font-size:18px;
+  left : 115px;
+
+}
+
+#b5 {
+  font-size:10px;
+}
+
+#adresse {
+  font-size:12px;
+  left:50px;
+}
+
+#contact {
+  right : 50px ;
+  top : 600px ;
+  font-size : 20px ;
+
+}
+
+#hr_c1 {
+  width : 55px;
+  top : 590px;
+  right : 50px;
+}
+
+#hr_c2 {
+  width : 55px;
+  top : 635px;
+  right : 50px;
+}
+
+#email_a {
+  font-size : 11px;
+  top : 660px;
+  right : 30px;
+
+}
+
+#tel_a {
+  font-size : 11px;
+  top : 680px;
+  right : 30px;
+}
+
+#email_f {
+  font-size : 11px;
+  top : 710px;
+  right : 30px;
+
+}
+
+#tel_f {
+  font-size : 9px;
+  top : 730px;
+  right : 30px;
+}
+
+#b6 {
+  top : 5260px;
+  left : 600px;
+  font-size : 10px;
+}
+
+}

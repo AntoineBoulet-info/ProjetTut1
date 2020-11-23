@@ -1,0 +1,126 @@
+body {
+  margin : auto ;
+  width : 100% ;
+  padding : 0px ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background: url("../ressources/img/form.jpg") no-repeat fixed ;
+
+
+}
+
+
+
+.table {
+    display: table;
+
+}
+
+div.table{
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom:10px;
+
+}
+
+
+label {
+    padding-right: 10px;
+    font-family: "Helvetica";
+    font-style: oblique;
+
+}
+
+input{
+  width : 305px;
+}
+
+
+@font-face {
+  font-family : "Tw Cen MT" ;
+  src : url('../ressources/TCM_____.TTF') ;
+  font-family : "Fantasy" ;
+  src : url('../ressources/DK\ Dirrrty.ttf ') ;
+  font-family: "Helvetica" ;
+  src : url('../ressources/HelveticaNeue-Thin.otf') ;
+
+}
+
+#contact {
+  position: absolute;
+  left : 600px;
+  font-family: "Tw Cen MT" ;
+  font-size : 45px ;
+  font-style: italic;
+  color : rgba(4,72,130,0.7) ;
+}
+
+
+
+
+#box {
+  border: 2px solid  ;
+  position :absolute;
+  background-color : rgba(4,72,130,0.5) ;
+  top : 200px ;
+  left : 480px ;
+  width : 40% ;
+  padding : 15px;
+
+}
+
+
+#b {
+  margin-left: 50px ;
+  margin-top: 50px;
+  border-radius:12px 0 12px 0;
+	background: #044883;
+	border:none;
+	color:#fff;
+	font:bold 14px Helvetica;
+	padding:6px 0 6px 0;
+}
+
+
+#logo {
+  position: absolute;
+  right : 20px;
+  top : 600px ;
+}
+
+
+#iut {
+  position: absolute;
+  left : 50px ;
+  top : 100px;
+}
+
+#index {
+  position: absolute;
+  left : 40px;
+  top : 680px ;
+  font-family: "Helvetica" ;
+  font-size : 14px ;
+
+}
+
+#b2 {
+  position: absolute;
+  right:50px;
+  top: 500px;
+  color : rgb(4,72,130);
+  border-radius:12px 0 12px 0;
+	background: #044883;
+	border:none;
+	font:bold 14px Helvetica;
+	padding:6px 0 6px 0;
+}
+
+#b2 a {
+  color : #fff ;
+  text-decoration:  none;
+}

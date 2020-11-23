@@ -1,0 +1,43 @@
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+
+#contact  {
+  top : 100px;
+  left: 700px;
+  width : 150%;
+  font-size : 60px;
+}
+
+
+#box {
+  left : 600px;
+  width : 85%;
+  top : 400px;
+}
+
+
+#index {
+  top : 1100px;
+  width : 200% ;
+
+}
+
+#iut {
+  width : 20%;
+  left : 150px;
+}
+
+#logo {
+ top : 900px;
+ left : 1250px;
+}
+
+#b2 {
+  top : 800px;
+  left : 1200px;
+  width : 30% ;
+}
+
+
+
+}
